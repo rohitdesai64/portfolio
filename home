@@ -27,8 +27,8 @@
     <!-- Custom CSS -->
     <link href="stylish-portfolio.css" rel="stylesheet">
 
-    <!-- Custom Fonts -->
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <!-- Custom Fonts 
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
     <link href="font-awesome.min.css" rel="stylesheet" type="text/css">
     
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
@@ -48,13 +48,13 @@
                 <a href="#top" onclick=$("#menu-close").click();>Home</a>
             </li>
             <li>
-                <a href="#about" onclick=$("#menu-close").click();>Career</a>
+                <a href="#career" onclick=$("#menu-close").click();>Career</a>
             </li>
             <li>
-                <a href="#services" onclick=$("#menu-close").click();>Skills</a>
+                <a href="#skills" onclick=$("#menu-close").click();>Skills</a>
             </li>
             <li>
-                <a href="#portfolio" onclick=$("#menu-close").click();>Education</a>
+                <a href="#education" onclick=$("#menu-close").click();>Education</a>
             </li>
             <li>
                 <a href="#contact" onclick=$("#menu-close").click();>Contact</a>
@@ -68,12 +68,12 @@
             <h1>Rohit P. Desai</h1>
             <h3>UI Developer / Front End Develper</h3>
             <br>
-            <a href="#about" class="btn btn-dark btn-lg">Find Out More</a>
+            <a href="#career" class="btn btn-dark btn-lg">Find Out More</a>
         </div>
     </header>
 
-    <!-- About -->
-    <section id="about" class="about">
+    <!-- Career -->
+    <section id="career" class="about">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
@@ -92,9 +92,9 @@
         <!-- /.container -->
     </section>
 
-    <!-- Services -->
-    <!-- The circle icons use Font Awesome's stacked icon classes. For more information, visit http://fontawesome.io/examples/ -->
-    <section id="services" class="services bg-primary">
+    <!-- Skills -->
+ 
+    <section id="skills" class="services bg-primary">
         <div class="container-fluid">
             <div class="row text-center">
                 <div class="col-lg-10 col-lg-offset-1">
@@ -206,8 +206,8 @@
         
     </aside>
 
-    <!-- Portfolio -->
-    <section id="portfolio" class="portfolio">
+    <!-- Education -->
+    <section id="education" class="portfolio">
         <div class="container">
             <div class="row">
                 <div class="col-lg-10 col-lg-offset-1 text-center">
