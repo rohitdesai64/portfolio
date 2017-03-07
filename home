@@ -1,14 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
-
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
+    
     <title>Rohit Desai</title>
 
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
@@ -22,15 +16,9 @@
   <link rel="stylesheet" href="/resources/demos/style.css">
   <script src="https://code.jquery.com/jquery-1.12.4.js"></script>
   <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
-  
-
-    <!-- Custom CSS -->
+      
     <link href="stylish-portfolio.css" rel="stylesheet">
-
-    <!-- Custom Fonts 
-    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">-->
-    <link href="font-awesome.min.css" rel="stylesheet" type="text/css">
-    
+    <link href="font-awesome.min.css" rel="stylesheet" type="text/css">    
     <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
 </head>
@@ -87,9 +75,7 @@
 					</p>
                 </div>
             </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
+        </div>     
     </section>
 
     <!-- Skills -->
@@ -180,16 +166,12 @@
                             </div>
                         </div>
                     </div>
-                    <!-- /.row (nested) -->
-                </div>
-                <!-- /.col-lg-10 -->
-            </div>
-            <!-- /.row -->
-        </div>
-        <!-- /.container -->
+                </div>         
+            </div>       
+        </div>     
     </section>
 
-    <!-- Callout -->
+    <!-- ACHIEVEMENTS -->
     <aside class="callout">
         <div class="col-md-12 col-sm-12 col-xs-12 text-vertical-center">
             <h2><b>ACHIEVEMENTS AND EXTRA CURRICULAR ACTIVITIES</b></h2>
@@ -201,9 +183,7 @@
 			•	Developed software for office use (calculation of salary) for Bharatesh College of Computer Application, Belgaum.<br><br>
 			•	Designed projects as android application on restaurant management. <br>
 			</h4>
-		</div>	
-			
-        
+		</div>				       
     </aside>
 
     <!-- Education -->
@@ -215,11 +195,8 @@
                     <hr class="small">
                     <div class="row">
                         <div class="col-md-6 col-sm-6">
-                            <div class="portfolio-item">
-                                
-									<h2>SSLC - 2006 <br> Marathi Vidhyaniketan, <br> Belgaum.</h2>
-                                    
-                                
+                            <div class="portfolio-item">                               
+									<h2>SSLC - 2006 <br> Marathi Vidhyaniketan, <br> Belgaum.</h2>                          
                             </div>
                         </div>
                         <div class="col-md-6 col-sm-6">
@@ -238,16 +215,12 @@
                             </div>
                         </div>
                     </div>
-
                 </div>
-                <!-- /.col-lg-10 -->
             </div>
-            <!-- /.row -->
         </div>
-        <!-- /.container -->
     </section>
 
-    <!-- Call to Action -->
+    <!-- Space -->
     <aside class="call-to-action bg-primary">
         
     </aside>
@@ -277,8 +250,7 @@
                         </li>
                        
                     </ul>
-                    <hr class="small">
-                   <!--  <p class="text-muted">Copyright &copy; Your Website 2017</p> -->
+                    <hr class="small">                 
                 </div>
             </div>
         </div>
