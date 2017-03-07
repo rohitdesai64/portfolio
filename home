@@ -284,7 +284,7 @@
     </footer>
 
     <!-- jQuery -->
-       
+       <script src="jquery.js"></script>
 
     <!-- Custom Theme JavaScript -->
     <script>
