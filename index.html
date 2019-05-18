@@ -149,43 +149,62 @@
 
     <section class="resume-section p-3 p-lg-5 d-flex align-items-center" id="skills">
       <div class="w-100">
-        <h2 class="mb-5">Skills</h2>
+        <h2 class="mb-3">Skills</h2>
 
-        <div class="subheading mb-3">Programming Languages</div>
+        <div class="subheading">Programming Languages</div>
         <ul class="list-inline dev-icons">
           <li class="list-inline-item">
-            <i class="fab fa-html5"></i> 
+            <img src="img/Technology/html.png" width="45" alt="Html5" data-toggle="tooltip" data-placement="bottom" title="HTML5" />
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-css3-alt"></i>
+            <img src="img/Technology/css3.png" width="35" alt="CSS3" data-toggle="tooltip" data-placement="bottom" title="CSS3" />
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-js-square"></i>
+            <img src="img/Technology/javascript.png" width="45" alt="JavaScript" data-toggle="tooltip" data-placement="bottom" title="JavaScript" />
           </li>
           <li class="list-inline-item">
-            <i class="fab fa-angular"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-react"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-node-js"></i>
-          </li>
-          <li class="list-inline-item">
-            <i class="fab fa-wordpress"></i>
+            <img src="img/Technology/vuejs.png" width="45" alt="vueJS" data-toggle="tooltip" data-placement="bottom" title="vueJS" />
           </li>
         </ul>
 
-        <div class="subheading mb-3">Tools</div>
+        <div class="subheading">UI Framework</div>
+        <ul class="list-inline dev-icons">
+          <li class="list-inline-item">
+            <img src="img/Technology/vuetify.png" width="40" alt="vuetify" data-toggle="tooltip" data-placement="bottom" title="Vuetify" />
+          </li>
+          <li class="list-inline-item">
+            <img src="img/Technology/bootstrap.png" width="60" alt="Bootstrap" data-toggle="tooltip" data-placement="bottom" title="Bootstrap" />
+          </li>
+          <li class="list-inline-item">
+            <img src="img/Technology/angular.png" width="45" alt="Angular Material" data-toggle="tooltip" data-placement="bottom" title="Angular Material" />
+          </li>
+          <li class="list-inline-item">
+            <img src="img/Technology/material-ui.png" width="45" alt="React Material" data-toggle="tooltip" data-placement="bottom" title="Material-UI" />
+          </li>
+          <li class="list-inline-item">
+            <img src="img/Technology/stylus.png" width="60" alt="Stylus" data-toggle="tooltip" data-placement="bottom" title="Stylus" />
+          </li>
+        </ul>
+
+        <div class="subheading">Tools</div>
         <ul class="list-inline dev-icons">
             <li class="list-inline-item">
-              <i class="fab fa-html5"></i>
+                <img src="img/Technology/wordpress.png" width="45" alt="WordPress" data-toggle="tooltip" data-placement="bottom" title="WordPress" />
+              </li>
+            <li class="list-inline-item">
+              <img src="img/Technology/photoshop.png" width="45" alt="Photoshop" data-toggle="tooltip" data-placement="bottom" title="Photoshop" />
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-css3-alt"></i>
+              <img src="img/Technology/zeplin.png" width="55" alt="Zeplin" data-toggle="tooltip" data-placement="bottom" title="Zeplin" />
             </li>
             <li class="list-inline-item">
-              <i class="fab fa-js-square"></i>
+              <img src="img/Technology/visualStudio.png" width="80" alt="Visual Studio" data-toggle="tooltip" data-placement="bottom" title="Visual Studio" />
+            </li>
+            <li class="list-inline-item">
+              <img src="img/Technology/sublime.png" width="45" alt="Sublime" data-toggle="tooltip" data-placement="bottom" title="Sublime 3" />
+            </li>
+            <li class="list-inline-item">
+              <img src="img/Technology/Notepad.png" width="65" alt="Notepad++" data-toggle="tooltip" data-placement="bottom" title="Notepad++" />
             </li>
           </ul>
 
@@ -235,6 +254,9 @@
 
   </div>
 
+  <!-- Tooltip -->
+  
+
   <!-- Bootstrap core JavaScript -->
   <script src="vendor/jquery/jquery.min.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
@@ -244,7 +266,11 @@
 
   <!-- Custom scripts for this template -->
   <script src="js/resume.min.js"></script>
-
+  <script>
+    $(function () {
+      $('[data-toggle="tooltip"]').tooltip()
+    })
+  </script>
 </body>
 
 </html>
