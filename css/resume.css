@@ -1,9 +1,3 @@
-/*!
- * Start Bootstrap - Resume v5.0.5 (https://startbootstrap.com/template-overviews/resume)
- * Copyright 2013-2019 Start Bootstrap
- * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-resume/blob/master/LICENSE)
- */
-
 body {
   font-family: 'Muli', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
   padding-top: 54px;
@@ -189,4 +183,13 @@ a {
 
 a:hover, a:focus, a:active {
   color: #824027;
+}
+.resume_download {
+  color:#bd5d38;
+  border-color:#bd5d38;
+}
+
+.resume_download:hover {
+  background-color:#bd5d38;
+  color:#fff
 }
