@@ -184,6 +184,7 @@ a {
 a:hover, a:focus, a:active {
   color: #824027;
 }
+/* Custome CSS Added */
 .resume_download {
   color:#bd5d38;
   border-color:#bd5d38;
@@ -192,4 +193,11 @@ a:hover, a:focus, a:active {
 .resume_download:hover {
   background-color:#bd5d38;
   color:#fff
+}
+
+#carouselExampleCaptions .carousel-control-prev-icon,
+#carouselExampleCaptions .carousel-control-next-icon,
+#carouselcepScreens .carousel-control-prev-icon,
+#carouselcepScreens .carousel-control-next-icon {
+  background-color: #000
 }
