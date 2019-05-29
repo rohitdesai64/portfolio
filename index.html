@@ -92,25 +92,31 @@
 
         <div class="resume-item d-flex flex-column flex-md-row justify-content-between mb-5">
           <div class="resume-content">
-            <h3 class="mb-0">UI Developer</h3>
-            <div class="subheading mb-3">AriveGuru Technology Pvt. Ltd.</div>
+            <div class="row">
+              <div class="col-sm-8">
+                  <h3 class="mb-0">UI Developer</h3>
+                  <div class="subheading mb-3">AriveGuru Technology Pvt. Ltd.</div>
+              </div>
+              <div class="col-sm-4">
+                  <div class="resume-date0 text-md-right">
+                    <span class="text-primary">April 2017 - Present</span>
+                  </div>
+              </div>
+            </div>
             
             <ul style="text-align: left; margin-top: 20px; font-size: 16px;">
               <li>Collaborated with team on implementing new features and discussing UX.</li>
-              <li>Developed the Front-end web page using UI framework Vuetify and Angular Material.</li>
+              <li>Developed the Front-end web page using UI framework like Bootstrap, Vuetify, Material UI and Angular Material.</li>
+              <li>Experience working in an Agile environment.</li>
               <li>Designed company website in wordpress.</li>
               <li>Working on PWA app in Vue JS using Vuetify framework.</li>
               <li>Developed working prototype from UI designs for cross-platform devices.</li>
               <li>Made heavy use of chrome Developer Tools and Firebug to ensure Frond-end code</li>
             </ul>
           </div>
-          <div class="resume-date text-md-right">
-            <span class="text-primary">April 2017 - Present</span>
-          </div>
         </div>
 
       </div>
-
     </section>
 
     <hr class="m-0">
@@ -235,7 +241,7 @@
 
       <!-- Dialog for Flip2flex -->
       <div class="modal fade" id="f2fDialog" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="exampleModalLabel">Flip2Flex</h5>
@@ -246,16 +252,6 @@
               <div class="modal-body">
                 <!-- Caroasal Start -->
                 <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carouselExampleCaptions" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselExampleCaptions" data-slide-to="1"></li>
-                      <li data-target="#carouselExampleCaptions" data-slide-to="2"></li>
-                      <li data-target="#carouselExampleCaptions" data-slide-to="3"></li>
-                      <li data-target="#carouselExampleCaptions" data-slide-to="4"></li>
-                      <li data-target="#carouselExampleCaptions" data-slide-to="5"></li>
-                      <li data-target="#carouselExampleCaptions" data-slide-to="6"></li>
-                      <li data-target="#carouselExampleCaptions" data-slide-to="7"></li>
-                    </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img src="./img/f2f/f2f-1.PNG" class="d-block w-100" alt="Screen1">
@@ -296,7 +292,7 @@
 
         <!-- Dialog for CEP -->
       <div class="modal fade" id="cepDialog" tabindex="-1" role="dialog" aria-labelledby="cepModalLabel" aria-hidden="true">
-          <div class="modal-dialog modal-lg" role="document">
+          <div class="modal-dialog modal-xl" role="document">
             <div class="modal-content">
               <div class="modal-header">
                 <h5 class="modal-title" id="cepModalLabel">Customer Engagement Portal</h5>
@@ -307,16 +303,6 @@
               <div class="modal-body">
                 <!-- Caroasal Start -->
                 <div id="carouselcepScreens" class="carousel slide" data-ride="carousel">
-                    <ol class="carousel-indicators">
-                      <li data-target="#carouselcepScreens" data-slide-to="0" class="active"></li>
-                      <li data-target="#carouselcepScreens" data-slide-to="1"></li>
-                      <li data-target="#carouselcepScreens" data-slide-to="2"></li>
-                      <li data-target="#carouselcepScreens" data-slide-to="3"></li>
-                      <li data-target="#carouselcepScreens" data-slide-to="4"></li>
-                      <li data-target="#carouselcepScreens" data-slide-to="5"></li>
-                      <li data-target="#carouselcepScreens" data-slide-to="6"></li>
-                      <li data-target="#carouselcepScreens" data-slide-to="7"></li>
-                    </ol>
                     <div class="carousel-inner">
                       <div class="carousel-item active">
                         <img src="./img/cep/cep-1.PNG" class="d-block w-100" alt="Screen1">
@@ -399,10 +385,14 @@
   <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
 
   <!-- Custom scripts for this template -->
-  <script src="js/resume.min.js"></script>
+  <script src="js/resume.js"></script>
   <script>
     $(function () {
       $('[data-toggle="tooltip"]').tooltip()
+    })
+
+    $('.carousel').carousel({
+      interval: 3000
     })
   </script>
 </body>
