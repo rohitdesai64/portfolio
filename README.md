@@ -1,6 +1,6 @@
 # [Rohit Desai - Resume](https://rohitdesai64.github.io/portfolio/)
 
-I have 2.5+ years of Experience in UI Development. Good exposure in planning, analysis and implementation of solutions in support of business objectives and good in customer handling. Hands on experience in development efforts including understanding requirement, design, implement and provide post implementation support.
+I have 3+ years of Experience in Front-end Development. Good exposure in planning, analysis and implementation of solutions in support of business objectives and good in customer handling. Hands on experience in development efforts including understanding requirement, design, implement and provide post implementation support.
 
 ## Preview
 
@@ -8,4 +8,4 @@ I have 2.5+ years of Experience in UI Development. Good exposure in planning, an
 
 ## Copyright and License
 
-Copyright 2019 Rohit Desai
+Copyright 2020 Rohit Desai
